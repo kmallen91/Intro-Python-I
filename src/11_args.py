@@ -21,6 +21,7 @@ print(f1(1, 2))
 
 
 def f2(*num):
+    # sum(num)
     result = 0
     for x in num:
         result += x
