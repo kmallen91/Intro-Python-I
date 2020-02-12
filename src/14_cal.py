@@ -35,8 +35,6 @@ args = sys.argv
 today = datetime.now()
 current_month = today.month
 current_year = today.year
-print(len(args))
-print(args)
 
 
 def call_calendar(args):
